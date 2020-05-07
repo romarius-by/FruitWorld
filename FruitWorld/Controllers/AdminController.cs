@@ -37,5 +37,6 @@ namespace FruitWorld.Controllers
                 return View(product);
             }
         }
+        public ViewResult Create() => View("Edit", new Product());
     }
 }
