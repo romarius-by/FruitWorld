@@ -10,8 +10,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace FruitWorld.Migrations
 {
     [DbContext(typeof(AppIdentityDbContext))]
-    [Migration("20200510160727_Reload")]
-    partial class Reload
+    [Migration("20200511211508_Initial2")]
+    partial class Initial2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

@@ -10,6 +10,7 @@ using FruitWorld.Models;
 using Microsoft.Extensions.Configuration;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using SportsStore.Models;
 
 namespace FruitWorld
 {
