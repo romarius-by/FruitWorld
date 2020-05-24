@@ -4,9 +4,11 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using FruitWorld.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace FruitWorld.Controllers
 {
+    [Authorize]
     public class AdminController : Controller
     {
         IProductRepository _rep;
